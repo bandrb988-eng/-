@@ -1,30 +1,26 @@
 # Replace with your Discord Application ID
-application_id: "1311204057490259979"
+application_id: "1574730660889886749"
 
 # Activity type: 0 = Playing, 1 = Streaming, 2 = Listening, 3 = Watching
 type: 3
 
-# Activity Details
-name: "Youtube"
-details: "Watching Nexos Labs"
-state: "Subscribe"
+# Activity details
+name: "#Fas."
+details: "#Fas."
+state: ""
 
-# Activity Images
-largeImageKey: "1377844502521446490"
-largeImageText: "Watching Nexos Labs"
-smallImageKey: "1377845999464087653"
-smallImageText: "Subscribe"
+# Activity images
+largeImageKey: "03"
+largeImageText: ""
+smallImageKey: ""
+smallImageText: ""
 
 # Activity URL (optional, works only with certain types)
-url: "https://www.youtube.com/@nexoscreator"
+url: ""
 
-# Activity Buttons (optional)
-buttons:
-  - name: "Visit Website"
-    url: "https://www.nexoscreator.tech"
-  - name: "GitHub Repo"
-    url: "https://github.com/nexoslabs/discord-24-7-rich-presence"
+# Activity buttons (optional)
+buttons: []
 
-# Activity Custom status
-custom_status: "Watching tutorials"
-custom_emoji: "🔥"
+# Activity custom status
+custom_status: ""
+custom_emoji: ""
