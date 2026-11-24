@@ -65,3 +65,8 @@ client
   .catch(() =>
     console.error("❌ Invalid or missing token. Check your .env file.")
   );
+const http = require('http');
+http.createServer((req, res) => {
+  res.writeHead(200);
+  res.end('Running');
+}).listen(process.env.PORT || 3000);
